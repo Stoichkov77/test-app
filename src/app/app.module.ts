@@ -6,12 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'; 
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatIconModule} from '@angular/material/icon';
-import { TestComponentComponent } from './test-component/test-component.component'; 
+import { TestComponentComponent } from './test-component/test-component.component';
+import { ThirdComponentComponent } from './third-component/third-component.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponentComponent
+    TestComponentComponent,
+    ThirdComponentComponent
   ],
   imports: [
     BrowserModule,
